@@ -1,0 +1,211 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* CUSTOM-STYLING */
+
+body {
+  background: black;
+  font-family: sans-serif;
+}
+body::before {
+  content: '';
+  position: fixed;
+  height: 100vh;
+  z-index: -1;
+  width: 100%;
+  background-image: url('../media/slide-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* HEADER */
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: rgb(219, 219, 219);
+  font-weight: 700;
+}
+
+/* MAIN-SECTION-1 */
+
+.section-1 {
+  padding: 100px 0;
+}
+.box,
+.box-4 {
+  width: 30%;
+  height: 250px;
+  background: rgb(151, 70, 70);
+  text-align: center;
+  padding-top: 110px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.box-2 {
+  background: linear-gradient(to left, rgb(151, 70, 70), rgb(63, 45, 45));
+}
+.box-3 {
+  background: radial-gradient(rgb(151, 70, 70), rgb(63, 45, 45));
+}
+.box-4 {
+  width: 90%;
+  margin: 160px auto 0;
+  height: 350px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(187, 160, 147, 0.1),
+      rgba(173, 78, 33, 0.6)
+    ),
+    url(../media/workout.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 150px;
+}

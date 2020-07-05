@@ -1,0 +1,324 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+.fa-facebook-square {
+  color: #3c5a98;
+}
+.fa-twitter-square {
+  color: #1da1f2;
+}
+.fa-instagram-square {
+  color: ;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+
+/* HEADER */
+
+header {
+  background: #20222f;
+  padding: 30px 0;
+  text-transform: capitalize;
+}
+header h1 {
+  color: whitesmoke;
+  font-weight: 700;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+header p {
+  color: #c8cbd8;
+  font-size: 1.03rem;
+}
+.btn {
+  width: 45px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgb(60, 203, 152);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #20222f;
+  margin: 2px 0 1px 3px;
+  box-shadow: -4px -1px 10px rgb(61, 61, 143);
+}
+
+/* HERO */
+
+.hero {
+  background: #1d2029;
+  padding: 30px 0 40px;
+}
+.hero .box {
+  height: 230px;
+  width: 22%;
+  border-radius: 5px;
+  background: #252b43;
+  color: #999eb6;
+}
+.fb {
+  border-top: 5px solid #3c5a98;
+}
+.twitter {
+  border-top: 5px solid #1da1f2;
+}
+.hero .instagram {
+  background: linear-gradient(
+    to right,
+    rgb(253, 167, 68),
+    rgb(216, 46, 126),
+    rgb(162, 53, 158)
+  );
+}
+.youtube {
+  border-top: 5px solid #ff0000;
+}
+.content {
+  background: #252b43;
+  width: 100%;
+  height: 225px;
+  margin-top: 5px;
+}
+.fb .profile,
+.twitter .profile,
+.youtube .profile,
+.content .profile {
+  font-size: 1rem;
+  padding: 30px 72px 20px;
+}
+.profile i {
+  font-size: 1.2rem;
+}
+.followers-number {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+.followers-text {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 0.9rem;
+}
+.new-today {
+  padding: 20px 90px;
+  color: rgb(60, 203, 152);
+}
+.new-today i {
+  position: relative;
+  top: 5px;
+}
+
+/* MAIN-SECTION-2 */
+
+.section-2 {
+  background: #1d2029;
+  padding: 30px 0 40px;
+}
+.section-2 .box {
+  height: 130px;
+  width: 22%;
+  border-radius: 5px;
+  background: #252b43;
+  margin-bottom: 30px;
+}
+.flex {
+  flex-wrap: wrap;
+}
+.section-2 h2 {
+  color: whitesmoke;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.page-view {
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #999eb6;
+  padding: 0 35px;
+}
+.page-view i {
+  font-size: 1.3rem;
+}
+.page-view-data {
+  padding: 0 35px;
+  align-items: baseline;
+}
+.page-view-data p:first-child {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.percentage-data {
+  font-size: 1rem;
+  color: rgb(60, 203, 152);
+}
+.percentage-data i {
+  position: relative;
+  top: 5px;
+  right: 2px;
+}
